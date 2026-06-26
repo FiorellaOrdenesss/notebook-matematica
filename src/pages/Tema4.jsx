@@ -40,18 +40,6 @@ function Tema4() {
 
       <div className="card mb-4">
         <div className="card-body">
-          <h5 className="card-title">Representación gráfica</h5>
-          <img
-            width="100%"
-            src="https://www.geogebra.org/resource/XHh9K5kJ/4anDXsfpA07cmzH3/material-XHh9K5kJ.png"
-            alt="Gráfico ecuaciones segundo grado"
-            className="img-fluid"
-          />
-        </div>
-      </div>
-
-      <div className="card mb-4">
-        <div className="card-body">
           <h5 className="card-title">Ejemplo</h5>
           <iframe
             width="100%"
@@ -82,18 +70,6 @@ function Tema4() {
             <em>Ejemplo:</em> x³ - 6x² + 11x - 6 = 0 → Las raíces son x = 1, 2,
             3.
           </p>
-        </div>
-      </div>
-
-      <div className="card mb-4">
-        <div className="card-body">
-          <h5 className="card-title">Representación gráfica</h5>
-          <img
-            src="https://www.geogebra.org/resource/XHh9K5kJ/4anDXsfpA07cmzH3/material-XHh9K5kJ.png"
-            alt="Gráfico ecuaciones"
-            className="img-fluid"
-            width="100%"
-          />
         </div>
       </div>
 
