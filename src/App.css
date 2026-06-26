@@ -1,0 +1,98 @@
+:root {
+  --accent: #8b5cf6;
+  --accent-light: #c4b5fd;
+  --accent-dark: #5b21b6;
+  --bg-light: #f9f9fb;
+  --bg-dark: #1e1b29;
+  --text-h: #2d2a3e;
+  --text-soft: #6b6b7b;
+  --border: #dcdbe3;
+  --shadow: 0 4px 12px rgba(139, 92, 246, 0.2);
+}
+
+body {
+  background: linear-gradient(180deg, var(--bg-light) 0%, #f3f0ff 100%);
+  color: var(--text-h);
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background: var(--accent);
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.navbar a {
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--accent-light);
+}
+
+h1,
+h5 {
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+
+.card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.counter {
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: var(--accent-dark);
+  background: var(--accent-light);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.counter:hover {
+  border-color: var(--accent-dark);
+}
+
+.hero::before {
+  content: "🌸🐱";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  font-size: 28px;
+  opacity: 0.8;
+}
+
+.hero::after {
+  content: "🐾🌷";
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  font-size: 28px;
+  opacity: 0.8;
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 32px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-soft);
+  font-size: 14px;
+}
