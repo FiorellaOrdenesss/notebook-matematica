@@ -112,32 +112,6 @@ function Tema4() {
           ></iframe>
         </div>
       </div>
-      <div className="card mb-4">
-        <div className="card-body">
-          <h5 className="card-title">Ecuaciones irracionales</h5>
-          <p>
-            Son ecuaciones en las que la incógnita aparece dentro de un radical.
-            Se resuelven elevando ambos miembros de la ecuación a la potencia
-            correspondiente para eliminar los radicales.
-          </p>
-          <p>Ejemplo: (x+1)/(x-2) = 3 → x = 7/2</p>
-        </div>
-      </div>
-      <div className="card mb-4">
-        <div className="card-body">
-          <h5 className="card-title">Ejemplo</h5>
-          <iframe
-            width="100%"
-            height="400"
-            src="https://www.youtube.com/embed/r_EMdz5cNnQ?si=t_sgCfsl063PKfng"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
 
       <div className="card mb-4">
         <div className="card-body">
@@ -174,7 +148,6 @@ function Tema4() {
             Se resuelven elevando ambos miembros de la ecuación a la potencia
             correspondiente para eliminar los radicales.
           </p>
-          <p>Ejemplo: √(x+3) = x → x = 3</p>
           <p>Ejemplo adicional: 2(3x - 1) &lt; 4(x + 3)</p>
         </div>
       </div>
