@@ -33,7 +33,7 @@ function Home() {
               <i className="bi bi-flower1 me-2"></i>Made
             </li>
             <li>
-              <i className="bi bi-code-slash"></i>Nacho
+              <i className="bi bi-code-slash"></i> Nacho
             </li>
           </ul>
         </div>
